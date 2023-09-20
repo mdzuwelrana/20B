@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div class="flex flex-row h-screen">
+<body class="container mx-auto ">
+    <div class="mx-auto  flex flex-row ">
         <!-- sidbar start -->
-        <div class=" md:w-1/5 bg-[#2D674E]  px-10 h-[1850px] text-white">
+        <div class="mx-auto w-1/5  h-[1900px] bg-[#2D674E]  px-10 text-white">
             <div class="flex mx-auto my-16 items-center text-3xl gap-2 text-white">
                 <img src="/images/earthy.png" alt="">
                 <h1> Earthy</h1>  
             </div>
             <div class="flex gap-2 mx-auto items-center">
                 <img src="/images/ds(1),s-1.png" alt="">
-               <a href="#"> <h2 class="text-xl">Dashboard</h2></a>
+                <a href="/Farmer/Dashboard.html"><h2 class="text-xl">Dashboard</h2></a>
                
             </div>
             <div class="flex justify-between mx-auto my-10 items-center">
                 <div class="flex items-center gap-2">
                     <img class="w-5 h-5" src="/images/d(1),s-2.png" alt="">
-                    <a href="#"><h2 class="text-xl">Messaging</h2></a>
+                    <a href="/Farmer/Messaging.html"><h2 class="text-xl">Messaging</h2></a>
                 </div>
                
             </div>
@@ -32,7 +32,7 @@
             <div class="flex justify-between mx-auto my-10 items-center">
                 <div class="flex items-center gap-2">
                     <img class="w-5 h-5" src="/images/d(1),s-3.png" alt="">
-                    <a href="#"><h2 class="text-xl">Messaging</h2></a>
+                    <a href="/Farmer/Record.html"><h2 class="text-xl">Record</h2></a>
                 </div>
                
             </div>
@@ -41,20 +41,20 @@
             <div class="flex justify-between mx-auto my-10 items-center">
                 <div class="flex gap-2 items-center">
                     <img  class="w-5 h-5" src="/images/d(1),s-4.png" alt="">
-                    <a href="#"><h2 class="text-xl">Profile</h2></a>
+                    <a href="/Farmer/Pofile.html"><h2 class="text-xl">Profile</h2></a>
                 </div>
                 
             </div>
-            <div class="flex justify-between mx-auto my-10 items-center">
+            <div class=" flex justify-between mx-auto my-10 items-center">
                 <div class="flex items-center gap-2">
                     <img class="w-5 h-5" src="/images/d(1),s-7.png" alt="">
-                    <a href="#"><h2 class="text-lg">Doc Management</h2></a>
+                    <a href="/Farmer/FormMain.html"><h2 class="text-xl mx-auto items-center">Form</h2></a>
                 </div>
             </div>
             <div class="flex justify-between mx-auto my-10 items-center">
                 <div class="flex gap-2 items-center">
                     <img class="w-5 h-5" src="/images/d(1),s-6.png" alt="">
-                    <a href="#"><h2 class="text-xl">Setting</h2></a>
+                    <a href="/Farmer/User.html"><h2 class="text-xl">Users</h2></a>
                 </div>
                 
             </div>
@@ -141,21 +141,10 @@
                         </div>
                           <!-- section-1(1) end -->
 
-                          <!-- section-1(2) start -->
-                        <div  class="bg-white py-5 rounded-lg mx-auto px-5 mt-10">
-                            <h2 class="text-[#2D674E] text-xl font-bold mb-5">Today Highlights</h2>
-                            <img class="my-5" src="/images/p-section-1(2)-1.png" alt="">
-                            <h3 class="text-black text-xl font-bold">Darwin Creative Agency Theme</h3>
-                            <h4 class="text-[#666666] text-sm">A small river named Duden flows by their place
-                                and supplies it with the necessary regelialia. It is
-                                a paradisematic country, in which roasted parts
-                                of sentences fly into your mouth.</h4>
-                        </div>
-                          <!-- section-1(2) end -->
 
                           <!-- interest start -->
-                          <div class="bg-white py-5 rounded-lg mx-auto px-5 mt-10">
-                            <h2 class="text-[#2D674E] text-xl font-bold mb-5">Interest</h2>
+                          <div class="bg-white py-5 rounded-lg mx-auto px-5 mt-5">
+                            <h2 class="text-[#2D674E] text-xl font-bold mb-5">My Crops</h2>
                             <div class="grid grid-cols-3">
                                 <img src="/images/pro-inr-1.png" alt="">
                                 <img src="/images/pro-inr-2.png" alt="">
@@ -167,41 +156,79 @@
                           </div>
                           <!-- interest end -->
 
-                          <!-- Our Latest News start -->
-                          <div class="bg-white py-10 rounded-lg mx-auto px-5 mt-10">
-                            <h2 class="text-[#2D674E] text-xl font-bold mb-5">Our Latest News</h2>
+                          <!-- Our TOTAL CROP start -->
+                          <div class="bg-white py-10 rounded-lg mx-auto px-5 mt-5">
+                            <h2 class="text-[#2D674E] text-xl font-bold mb-5">My Total Crops</h2>
                             <div class="flex gap-3">
                                 <div>
-                                    <img class="object-cover w-28 h-16" src="/images/pro-news-1.png" alt="">
+                                    <img class="object-cover w-28 h-16" src="/images/profileN-1.png" alt="">
                                 </div>
                                 <div>
-                                    <h2 class="text-black  font-bold">Collection of textile samples</h2>
+                                    <h2 class="text-black  font-bold">CPotato - 1 Bigha</h2>
                                     <h3 class="text-[#666666] text-sm">I shared this on my fb wall a few
                                         months back, and I thought.</h3>
                                 </div>
                             </div>
                             <div class="flex gap-3 my-10">
                                 <div>
-                                    <img class="object-cover w-28 h-16" src="/images/pro-news-2.png" alt="">
+                                    <img class="object-cover w-28 h-16" src="/images/profileN-2.png" alt="">
                                 </div>
                                 <div>
-                                    <h2 class="text-black  font-bold">Collection of textile samples</h2>
+                                    <h2 class="text-black  font-bold">Potato - 1 Bigha</h2>
                                     <h3 class="text-[#666666] text-sm">I shared this on my fb wall a few
                                         months back, and I thought.</h3>
                                 </div>
                             </div>
                             <div class="flex gap-3">
                                 <div>
-                                    <img class="object-cover w-28 h-16" src="/images/pro-news-3.png" alt="">
+                                    <img class="object-cover w-28 h-16" src="/images/profileN-3.png" alt="">
                                 </div>
                                 <div>
-                                    <h2 class="text-black  font-bold">Collection of textile samples</h2>
+                                    <h2 class="text-black  font-bold">Potato - 1 Bigha</h2>
                                     <h3 class="text-[#666666] text-sm">I shared this on my fb wall a few
                                         months back, and I thought.</h3>
                                 </div>
                             </div>
                           </div>
-                          <!-- Our Latest News end -->
+                          <!-- Our TOTAL CROP end -->
+
+                           <!-- Order Summary start -->
+                    <div class=" p-5 mt-5  bg-white rounded-xl">
+                        <div class="flex justify-between">
+                            <div class="flex items-end">
+                                <h2 class="text-black font-bold">Order Summary</h2>
+                            </div>
+                            <div class="flex items-center gap-5">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+                                  </svg>
+                                  
+                            </div>
+                        </div>
+                        <div class=" mt-5">
+                           
+                            <div class="mt-5 flex justify-between gap-5">
+                                <div class=" p-3"><img src="/images/profileN-4.png" alt=""></div>
+                                
+                            </div>
+                            <div class="flex text-xs">
+                                <div class="flex gap-1 mx-auto items-center">
+                                    <div class="w-4 h-4 bg-[#2D674E] rounded"></div>
+                                    <h2>Delivered</h2>
+                                </div>
+                                <div class="flex gap-1 mx-auto items-center">
+                                    <div class="w-4 h-4 bg-[#FF8D0E] rounded"></div>
+                                    <h2>Candeled</h2>
+                                </div>
+                                <div class="flex gap-1 mx-auto items-center">
+                                    <div class="w-4 h-4 bg-[#3B42F0] rounded"></div>
+                                    <h2>On Delivery</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Order Summary end -->
 
                     </div>
                     <!-- sub-main section-1 end -->
@@ -230,7 +257,7 @@
                                 <!-- like-reply button start -->
                             <div class="flex gap-3 text-white my-7">
                                 <div class="bg-[#2D674E] px-5 py-2 rounded-lg"><i class="fas fa-heart" style="color: #fcfcfc;"></i> Like</div>
-                                <div class="bg-[#2D674E] px-5 py-2 rounded-lg"><i class="fas fa-reply" style="color: #fafcff;"></i> Reply</div>
+                                <div class="bg-[#FF8D0E] px-5 py-2 rounded-lg"><i class="fas fa-reply" style="color: #fafcff;"></i> Reply</div>
                             </div>
                             <!-- like-reply button start -->
                             <img class="mt-10 mb-5" src="/images/pro-news(2)-2.png" alt="">
@@ -242,7 +269,7 @@
                                 <!-- like-reply button start -->
                             <div class="flex gap-3 text-white my-7">
                                 <div class="bg-[#2D674E] px-5 py-2 rounded-lg"><i class="fas fa-heart" style="color: #fcfcfc;"></i> Like</div>
-                                <div class="bg-[#2D674E] px-5 py-2 rounded-lg"><i class="fas fa-reply" style="color: #fafcff;"></i> Reply</div>
+                                <div class="bg-[#FF8D0E] px-5 py-2 rounded-lg"><i class="fas fa-reply" style="color: #fafcff;"></i> Reply</div>
                             </div>
                             <!-- like-reply button start -->
                             <!-- menu bar end -->
@@ -263,8 +290,5 @@
             </div>
         
         <!-- sec-2 end -->
-
-        
-    </div>    
 </body>
 </html>
